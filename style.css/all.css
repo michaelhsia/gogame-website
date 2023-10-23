@@ -1,0 +1,269 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.3;
+  font-family: "Noto Serif TC", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* typography */
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-32 {
+  font-size: 32px;
+}
+
+.fz-40 {
+  font-size: 40px;
+}
+
+.ft-innocent {
+  color: #ffffff;
+}
+
+.ft-darker {
+  color: rgb(0, 90, 91);
+}
+
+.ft-special {
+  color: rgb(6, 120, 120);
+}
+
+.ft-success {
+  color: rgb(12, 122, 92);
+}
+
+/* spacing */
+
+.p-2 {
+  padding: 8px;
+}
+
+.py-4-px-2 {
+  padding: 16px 8px;
+}
+
+.ml-5 {
+  margin-left: 20px;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.my-2 {
+  margin: 8px 0;
+}
+
+.my-4-mx-3 {
+  margin: 16px 12px;
+}
+
+/* border */
+
+.border-top-1 {
+  border-top: 1px solid #000;
+}
+
+.br-innocent {
+  border-right: 1px solid #fff;
+}
+
+/* flex */
+
+.d-flex {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    display: block;
+  }
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* background */
+
+.bg-dark {
+  background-color: #000;
+}
+
+.bg-light {
+  background-color: rgb(86, 224, 192);
+}
+
+/* list-style */
+
+.list-disc-style {
+  list-style-type: disc;
+}
+
+/* header */
+
+header {
+  background: url(../images/background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.top {
+  padding: 16px 0;
+}
+
+nav ul {
+  margin-left: -24px;
+}
+nav a {
+  display: block;
+  padding: 12px 24px;
+  transition: all 0.5s ease;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.active {
+  color: yellow;
+}
+
+/* main aside */
+
+aside {
+  width: 25%;
+}
+
+@media (max-width: 768px) {
+  aside {
+    width: 100%;
+  }
+}
+
+aside table td {
+  padding: 12px 8px;
+}
+
+.detail {
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .detail {
+    width: 100%;
+  }
+}
+
+/* main article */
+
+article {
+  padding: 8px 0;
+}
+
+/* korea.html */
+
+.koreaProPlayer {
+  border: 3px solid rgb(222, 184, 135);
+}
+
+/* japan.html */
+.jp-kiin-left {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .jp-kiin-left {
+    width: 100%;
+  }
+}
+
+.jp-kiin-right {
+  width: 65%;
+}
+
+@media (max-width: 768px) {
+  .jp-kiin-right {
+    width: 100%;
+  }
+}
+
+.tournament-info {
+  width: 65%;
+}
+
+@media (max-width: 768px) {
+  .tournament-info {
+    width: 100%;
+  }
+}
+
+#piechart {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  #piechart {
+    width: 100%;
+  }
+}
+
+/* china.html */
+
+.china-team th,
+.china-team td {
+  padding: 4px 16px;
+}
